@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>
+    <a href="">新文章</a>
+</h1>
+{% for article in articles %}
+    <li><a herf="">{{article.title}}</a></li>
+    <br/>
+    <div>
+        <p>{{article.content}}</p>
+    </div>
+{% endfor %}
+
+    <div>
+        <p>{{article.content}}</p>
+    </div>
+</body>
+</html>
